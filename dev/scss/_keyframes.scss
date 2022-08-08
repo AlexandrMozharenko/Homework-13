@@ -1,0 +1,30 @@
+
+@keyframes sec {
+    0% {
+        ttransform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    100% {
+        transform:translate(-50%, -50%) rotate(360deg); 
+    }
+ }
+
+ @keyframes min {
+    0% {
+        ttransform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    100% {
+        transform:translate(-50%, -50%) rotate(360deg); 
+    }
+ }
+
+ @keyframes hour{
+    0% {
+        ttransform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    100% {
+        transform:translate(-50%, -50%) rotate(360deg); 
+    }
+ }

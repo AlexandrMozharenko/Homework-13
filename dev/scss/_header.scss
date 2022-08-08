@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;    
+}
+
+#wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.clock {
+    padding: 0;
+    background-image: url('../images/clockface.jpg');
+    background-position: center;
+    background-repeat: no-repeat;    
+    position: relative;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;    
+}
+
+.hour, .min, .sec {        
+    position: absolute;
+    left: 50%; 
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(0deg);
+    width: 30px;
+    height: 100%; 
+}
+
+.sec {    
+    animation: sec 60s linear 1440;
+}
+
+ .min {
+    animation: sec 3600s linear 24;
+ }
+
+ .hour {
+    animation: sec 86400s linear 1;
+ }
+
+
+
+
+
+
